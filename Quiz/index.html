@@ -1,0 +1,109 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎯 Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🏠 Home Page -->
+  <div id="home" class="center-box">
+    <h1 class="title">🎯 Welcome to the Quiz Game!</h1>
+    <p>Select a difficulty level to begin:</p>
+    <div class="level-buttons">
+      <button onclick="startQuiz('easy')">Easy</button>
+      <button onclick="startQuiz('medium')">Medium</button>
+      <button onclick="startQuiz('hard')">Hard</button>
+    </div>
+  </div>
+
+  <!-- 🧠 Quiz Area -->
+  <div class="quiz-box hide" id="question-container">
+    <h2 id="question">Question?</h2>
+    <div id="progress">Question 1/5</div>
+    <ul class="options">
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+    </ul>
+    <div class="quiz-nav">
+      <button class="nav-btn" onclick="goBack()">⬅ Back</button>
+      <button id="next-btn" class="nav-btn" onclick="nextQuestion()">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- 🏁 Score Area -->
+<div class="quiz-box hide" id="score-container">
+  <h2>🎉 Quiz Complete!</h2>
+  <p>Your score: <span id="score"></span> / 5</p>
+  <div id="fun-fact-box">
+    <h3>💡 Fun Fact</h3>
+    <p id="fun-fact"></p>
+  </div>
+  <div class="quiz-nav">
+    <button class="nav-btn" onclick="restartQuiz()">🔄 Restart</button>
+    <button class="nav-btn" onclick="goBack()">⬅ Back</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎯 Quiz Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- 🏠 Home Page -->
+  <div id="home" class="center-box">
+    <h1 class="title">🎯 Welcome to the Quiz Game!</h1>
+    <p>Select a difficulty level to begin:</p>
+    <div class="level-buttons">
+      <button onclick="startQuiz('easy')">Easy</button>
+      <button onclick="startQuiz('medium')">Medium</button>
+      <button onclick="startQuiz('hard')">Hard</button>
+    </div>
+  </div>
+
+  <!-- 🧠 Quiz Area -->
+  <div class="quiz-box hide" id="question-container">
+    <h2 id="question">Question?</h2>
+    <div id="progress">Question 1/5</div>
+    <ul class="options">
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+      <li><button class="option" onclick="selectOption(this)"></button></li>
+    </ul>
+    <div class="quiz-nav">
+      <button class="nav-btn" onclick="goBack()">⬅ Back</button>
+      <button id="next-btn" class="nav-btn" onclick="nextQuestion()">Next ➡</button>
+    </div>
+  </div>
+
+  <!-- 🏁 Score Area -->
+<div class="quiz-box hide" id="score-container">
+  <h2>🎉 Quiz Complete!</h2>
+  <p>Your score: <span id="score"></span> / 5</p>
+  <div id="fun-fact-box">
+    <h3>💡 Fun Fact</h3>
+    <p id="fun-fact"></p>
+  </div>
+  <div class="quiz-nav">
+    <button class="nav-btn" onclick="restartQuiz()">🔄 Restart</button>
+    <button class="nav-btn" onclick="goBack()">⬅ Back</button>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+>>>>>>> fabf851 (Committing)
